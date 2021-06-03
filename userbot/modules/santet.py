@@ -3,14 +3,14 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern=r'^\.santet(?: |$)(.*)')
+@register(outgoing=True, pattern=r'^\.ngentot(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Lord Telah Mengaktifkan Perintah Santet Online ツ`")
+    await typew.edit("`kiyai azel Telah Mengirim 1000 jin untuk mengentot mamak loe ツ`")
     sleep(2)
-    await typew.edit("`Mencari Nama Orang Ini...`")
+    await typew.edit("`bentar beli kondom rasa duren dulu...`")
     sleep(1)
-    await typew.edit("`Santet Online Segera Dilakukan`")
+    await typew.edit("`ngentot segera di lakukan `")
     sleep(1)
     await typew.edit("0%")
     number = 1
@@ -313,11 +313,11 @@ async def typewriter(typew):
     sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     sleep(1)
-    await typew.edit("`Target Berhasil Tersantet Online:v`")
+    await typew.edit("`target telah di ngentot *canda ka:v`")
 
 
 CMD_HELP.update({
-    'santetonline':
-    '`.santet`\
+    '.ngentotonlen':
+    '`.ngentot`\
         \nUsage: Santet Online Buat Bercanda.'
 })
